@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Javascript</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    
+        <script>
+        
+            const max = 57;
+            let actual = max - 13;
+
+            let percentage = actual / max;
+
+            console.log (percentage);
+
+
+            // Function Add 7
+            function add7 (number) {
+
+                console.log (number + 7);
+
+            }
+
+            // Multiply
+            
+            function multiply (number1, number2) {
+
+                console.log (number1 * number2);
+
+            }
+
+            // Capitalize
+
+            function capitalize (String) {
+
+                console.log(String.charAt(0).toUpperCase() + String.slice(1));
+
+            }
+
+            // Return Last Letter of String
+
+            function returnLast (String) {
+
+                console.log("Last Letter of String: " + String.charAt(String.length - 1));
+
+            }
+
+            add7(7);
+            multiply(7, 7);
+            capitalize("this is not capital");
+            returnLast("Last is D");
+
+
+        </script>
+
+</body>
+</html>
